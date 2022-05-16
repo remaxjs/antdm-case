@@ -1,0 +1,17 @@
+{
+  "name": "wechat-miniprogram-project",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "miniprogram project",
+  "dependencies": {
+    "miniprogram-render": "0.0.1",
+    "miniprogram-element": "0.0.1",
+    "html-to-js-loader": "0.0.1"
+  },
+  "workspaces": {
+    "nohoist": [
+      "miniprogram-render",
+      "miniprogram-element"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "remix-next",
+  "version": "1.0.0",
+  "private": "true",
+  "dependencies": {
+  },
+  "workspaces": [
+    "spec/*",
+    "packages/*"
+  ]
+}
